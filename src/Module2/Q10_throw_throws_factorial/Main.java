@@ -13,13 +13,10 @@ public class Main {
                     calculator.calculateFactorial(number);
 
             System.out.println(
-                    "Factorial of " + number
-                            + " is " + result);
+                    "Factorial of " + number + " is " + result);
 
         } catch (IllegalArgumentException exception) {
-            System.out.println(
-                    "Exception caught: "
-                            + exception.getMessage());
+            System.out.println("Exception caught: " + exception.getMessage());
         }
     }
 }

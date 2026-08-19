@@ -10,7 +10,6 @@ public class Main {
         int number = 6;
         int result = squareFunction.apply(number);
 
-        System.out.println("Square of " + number
-                + " is " + result);
+        System.out.println("Square of " + number + " is " + result);
     }
 }

@@ -8,9 +8,7 @@ public class Main {
         try {
             validator.validateAge(16);
         } catch (InvalidAgeException exception) {
-            System.out.println(
-                    "Exception caught: "
-                            + exception.getMessage());
+            System.out.println("Exception caught: " + exception.getMessage());
         }
     }
 }

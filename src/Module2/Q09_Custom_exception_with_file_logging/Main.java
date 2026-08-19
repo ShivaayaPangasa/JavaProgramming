@@ -38,9 +38,7 @@ public class Main {
             LOGGER.setUseParentHandlers(false);
 
         } catch (IOException exception) {
-            System.out.println(
-                    "Unable to create log file: "
-                            + exception.getMessage());
+            System.out.println("Unable to create log file: " + exception.getMessage());
         }
     }
 }
