@@ -1,0 +1,8 @@
+package Module2.Q08_Custom_InvalidAgeException;
+
+public class InvalidAgeException extends Exception {
+
+    public InvalidAgeException(String message) {
+        super(message);
+    }
+}
