@@ -1,0 +1,3 @@
+This is the source file for Q20. 
+We are testing file copying using byte streams with a buffer array in Java. 
+It should successfully copy this text into a new file called copy.txt!

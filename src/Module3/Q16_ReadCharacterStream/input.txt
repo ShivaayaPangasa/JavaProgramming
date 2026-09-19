@@ -1,0 +1,2 @@
+Hello from Q15! FileReader handles characters and proper text decoding instead of raw bytes.
+Testing international characters or standard text nicely.
