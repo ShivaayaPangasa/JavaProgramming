@@ -10,8 +10,8 @@ public class Main {
 
         try {
 
-            FileReader reader = new FileReader("test.txt");
-            FileWriter writer = new FileWriter("copy.txt");
+            FileReader reader = new FileReader("src/Extra/Q07_ReadCopy/test.txt");
+            FileWriter writer = new FileWriter("src/Extra/Q07_ReadCopy/copy.txt");
 
             int data;
 
