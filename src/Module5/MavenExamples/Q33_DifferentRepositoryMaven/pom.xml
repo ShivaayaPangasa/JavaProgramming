@@ -1,0 +1,21 @@
+<!-- Maven uses repositories to store and retrieve project dependencies and build artifacts.
+
+1. Local repository: A directory on the developer's computer where Maven caches downloaded dependencies and locally 
+installed artifacts. Its default location is usually .m2/repository inside the user's home directory.
+
+2. Central repository: The default public Maven repository that provides many Java libraries and plugins. Maven can 
+download dependencies from it when they are not already available locally.
+
+3. Remote repository: A repository hosted on another server, such as a company's private repository or another public 
+repository. It can be configured in Maven when a project needs artifacts that are not available from the repositories 
+already configured.
+
+Technically, Maven Central is itself a remote repository. In this comparison, the term “remote repository” usually 
+means an additional repository configured for a specific project or organization. -->
+
+<repositories>
+    <repository>
+        <id>company-repo</id>
+        <url>https://repo.example.com/maven2</url>
+    </repository>
+</repositories>
