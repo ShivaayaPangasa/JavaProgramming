@@ -1,0 +1,7 @@
+<!-- TEMPLATE ONLY. Do not place real secrets in a source-controlled file. Copy the server block to your user-level ~/.m2/settings.xml and replace the placeholders securely. -->
+<settings xmlns="http://maven.apache.org/SETTINGS/1.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.2.0 https://maven.apache.org/xsd/settings-1.2.0.xsd">
+  <servers>
+    <server><id>course-releases</id><username>YOUR_USERNAME</username><password>YOUR_TOKEN_OR_PASSWORD</password></server>
+    <server><id>course-snapshots</id><username>YOUR_USERNAME</username><password>YOUR_TOKEN_OR_PASSWORD</password></server>
+  </servers>
+</settings>

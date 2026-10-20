@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0          https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <!-- Inherit the parent configuration -->
+  <parent>
+    <groupId>com.example</groupId>
+    <artifactId>q47-multi-module</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
+  <!-- Name of this child module -->
+  <artifactId>app</artifactId>
+  <!-- This application uses the shared library -->
+  <dependencies>
+    <dependency>
+      <groupId>com.example</groupId>
+      <artifactId>shared-lib</artifactId>
+    </dependency>
+  </dependencies>
+  <!-- Plugin for running our Java application -->
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.5.0</version>
+        <configuration>
+          <mainClass>Module5.MavenExamples.Q47_MultiModuleMaven.app.Main</mainClass>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
