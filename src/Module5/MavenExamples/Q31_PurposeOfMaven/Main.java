@@ -1,3 +1,4 @@
+package Module5.MavenExamples.Q31_PurposeOfMaven;
 /*
 Apache Maven is a build automation and project management tool used in Java development. 
 
