@@ -1,0 +1,21 @@
+<!-- Maven plugins provide the functionality needed to perform build tasks. 
+
+Maven's lifecycle defines the stages of a build, while plugins implement the tasks performed during those stages.
+
+For example, the Maven Compiler Plugin compiles Java source code, the Maven Surefire Plugin runs unit tests
+and the Maven JAR Plugin creates JAR packages. Plugins contain goals that can be executed directly or attached to
+lifecycle phases. -->
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.13.0</version>
+
+            <configuration>
+                <release>17</release>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
